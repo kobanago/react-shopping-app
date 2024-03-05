@@ -22,6 +22,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "types": [
+      "vitest/globals"
+    ],
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
@@ -29,7 +32,9 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src"
+    "src",
+    "mocks",
+    "vitest-setup.ts"
   ],
   "references": [
     {
