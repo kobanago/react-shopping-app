@@ -12,3 +12,8 @@
 #### Biome
 ##### https://zenn.dev/ako/articles/b8a686843f6b83
 ##### npm install --D @biomejs/biome
+
+#### storybook
+##### npx storybook init --builder @storybook/builder-vite
+##### npm i storybook-msw-addon -D
+##### npx msw init public/ --save

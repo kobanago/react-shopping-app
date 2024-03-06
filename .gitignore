@@ -23,3 +23,7 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+#storybook sample
+src/stories/*.*
+src/stories/assets/*.*
