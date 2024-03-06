@@ -1,0 +1,19 @@
+# Ignore artifacts:
+build
+coverage
+yarn.lock
+package-lock.json
+*ignore
+
+# dotfile
+.env*
+
+# markdown
+*.md
+
+# production
+/build
+
+# yarn
+/.yarn/
+

@@ -26,7 +26,9 @@ const Sample = () => {
   return (
     <div>
       <h1>Hello, {username}</h1>
-      <button onClick={handleClick}>ユーザー名取得</button>
+      <button type="button" onClick={handleClick}>
+        ユーザー名取得
+      </button>
     </div>
   );
 };
