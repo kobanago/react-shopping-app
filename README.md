@@ -21,3 +21,7 @@
 ##### npx storybook init --builder @storybook/builder-vite
 ##### npm i storybook-msw-addon -D
 ##### npx msw init public/ --save
+
+#### Tailwind CSS
+##### npm install -D tailwindcss postcss autoprefixer
+##### npx tailwindcss init -p
