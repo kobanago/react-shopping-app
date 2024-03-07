@@ -13,6 +13,10 @@
 ##### https://zenn.dev/ako/articles/b8a686843f6b83
 ##### npm install --D @biomejs/biome
 
+#### huskey & lint-staged
+##### npm install --save-dev husky lint-staged
+##### npx husky init
+
 #### storybook
 ##### npx storybook init --builder @storybook/builder-vite
 ##### npm i storybook-msw-addon -D
