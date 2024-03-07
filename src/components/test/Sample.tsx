@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 type User = {
   firstName: string;
@@ -11,7 +11,7 @@ const Sample = () => {
 
   const handleClick = async () => {
     setIsLoading(true);
-    const res = await fetch('https://api.example.com/user');
+    const res = await fetch("https://api.example.com/user");
     const user = await res.json();
     setUser(user);
     setIsLoading(false);
@@ -21,7 +21,7 @@ const Sample = () => {
     return <div>Loading...</div>;
   }
 
-  const username = user ? `${user.firstName} ${user.lastName}` : 'Anonymous';
+  const username = user ? `${user.firstName} ${user.lastName}` : "Anonymous";
 
   return (
     <div>
