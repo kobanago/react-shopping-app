@@ -1,10 +1,10 @@
-import { http, HttpResponse } from "msw";
+import { http, HttpResponse } from 'msw';
 
 export const handlers = [
-  http.get("https://api.example.com/user", () => {
+  http.get('https://api.example.com/user', () => {
     return HttpResponse.json({
-      firstName: "John",
-      lastName: "Maverick",
+      firstName: 'John',
+      lastName: 'Maverick',
     });
   }),
 ];
