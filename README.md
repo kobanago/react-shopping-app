@@ -25,6 +25,8 @@
 #### Tailwind CSS
 ##### npm install -D tailwindcss postcss autoprefixer
 ##### npx tailwindcss init -p
+##### npm i @egoist/tailwindcss-icons -D
+##### npm i @iconify/json -D
 
 #### storybook/tailwind
 ##### npx storybook@latest add @storybook/addon-themes
